@@ -13,6 +13,7 @@ namespace Gestion_deLocation_deVoiture
         static void Main()
         {
             Application.EnableVisualStyles();
+	    //test git
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
