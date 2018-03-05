@@ -1,0 +1,11 @@
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\bin\Debug\Gestion_deLocation_deVoiture.exe
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\bin\Debug\Gestion_deLocation_deVoiture.pdb
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.csprojResolveAssemblyReference.cache
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.Form1.resources
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.Properties.Resources.resources
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.csproj.GenerateResource.Cache
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.exe
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.pdb
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.Form2.resources
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.Total.resources
+C:\Users\Badr\Documents\Gestion_deLocation_deVoiture\obj\Debug\Gestion_deLocation_deVoiture.Agence.resources
