@@ -35,11 +35,18 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AfficheTous.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfficheTous.Designer.cs">
+      <DependentUpon>AfficheTous.cs</DependentUpon>
+    </Compile>
     <Compile Include="Agence.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,8 +72,28 @@
     <Compile Include="Formclient.Designer.cs">
       <DependentUpon>Formclient.cs</DependentUpon>
     </Compile>
+    <Compile Include="LocationVoitureDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocationVoitureDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilisateur.Designer.cs">
+      <DependentUpon>Utilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Voiture1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voiture1.Designer.cs">
+      <DependentUpon>Voiture1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AfficheTous.resx">
+      <DependentUpon>AfficheTous.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Agence.resx">
       <DependentUpon>Agence.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +115,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Utilisateur.resx">
+      <DependentUpon>Utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voiture1.resx">
+      <DependentUpon>Voiture1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="LocationVoitureDataSet.xsc">
+      <DependentUpon>LocationVoitureDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LocationVoitureDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LocationVoitureDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LocationVoitureDataSet.xss">
+      <DependentUpon>LocationVoitureDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

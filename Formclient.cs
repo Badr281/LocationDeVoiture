@@ -17,7 +17,7 @@ namespace Gestion_deLocation_deVoiture
             InitializeComponent();
         }
         
-        SqlConnection cn = new SqlConnection(@"Data Source=DESKTOP-EJN41T2\SQLEXPRESS;Initial Catalog=LocationVoiture;Integrated Security=True");
+        SqlConnection cn = new SqlConnection("");
         string b;
         int ligne;
         int Mode = 0;

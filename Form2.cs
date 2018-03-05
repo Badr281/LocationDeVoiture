@@ -101,5 +101,12 @@ namespace Gestion_deLocation_deVoiture
         {
            
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Utilisateur ut = new Utilisateur();
+            ut.Show();
+            this.Hide();
+        }
     }
 }
